@@ -307,7 +307,10 @@ img {
 
 .text {}
 
-.portfolio {}
+.portfolio {
+    background: #FFF;
+    padding: 120px;
+}
 
 .portfolio-title {
     color: #2E2F42;
@@ -321,11 +324,18 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
-.portfolio-item {}
+.portfolio-item {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    width: calc((100% - 24px * 3) / 3);
+}
 
-.portfolio-img {}
+.portfolio-img {
+    margin-bottom: 32px;
+}
 
 .portfolio-subtitle {
     color: #2E2F42;
@@ -333,6 +343,9 @@ img {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .portfolio-text {
@@ -341,6 +354,9 @@ img {
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    text-align-last: left;
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 .footer {
