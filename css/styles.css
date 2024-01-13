@@ -272,12 +272,13 @@ img {
 }
 
 .team-img {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .team-container {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   text-align: center;
+  padding: 32px 0;
 }
 
 .team-subtitle {
